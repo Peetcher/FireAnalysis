@@ -1,0 +1,29 @@
+.analysis-page {
+  display: flex;
+  flex-direction: column;
+  height: 100%; /* Устанавливает высоту на весь экран */
+}
+
+/* Контейнер для анализа */
+.analysis {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1; /* Позволяет контейнеру занять все доступное пространство */
+  height: 100%; /* Высота равна высоте родителя */
+  gap: 5px;
+}
+
+.map {
+
+}
+
+.dashboard {
+  flex: 1; /* Задает оставшееся пространство */
+}
+
+/* Другие стили для ваших документов и других элементов */
+.documents {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-left: 1px solid #ddd;
+}

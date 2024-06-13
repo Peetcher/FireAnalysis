@@ -1,0 +1,14 @@
+.sidebar {
+  width: 150px;
+  background-color: rgb(61, 64, 70);
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  height: 100%; /* Ensure the sidebar takes the full height of the screen */
+  position: fixed; /* Fix the sidebar to the side of the screen */
+  top: 0;
+  left: 0;
+  overflow-y: auto;
+}
+
+
+

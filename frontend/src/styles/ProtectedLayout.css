@@ -1,0 +1,20 @@
+.protected-layout {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.main {
+  display: flex;
+  flex: 1;
+  margin-top: 60px;
+  margin-left: 200px; /* Adjust margin to account for the fixed sidebar width */
+  height: 70%;
+}
+
+.content {
+  margin-top: 20px;
+  padding: 20px;
+  overflow-y: auto;
+  flex: 1;
+}

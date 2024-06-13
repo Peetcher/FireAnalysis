@@ -1,0 +1,43 @@
+.SideBarMenu{
+    margin-top: 85px;
+    font-size: large;
+}
+
+.menu {
+  list-style: none; /* Убираем стандартные маркеры списка */
+  padding: 0;
+  margin: 0;
+}
+
+.menu li {
+  margin-bottom: 10px; /* Расстояние между пунктами меню */
+}
+
+.menu li a {
+  display: block;
+  padding: 10px 15px; /* Внутренние отступы */
+  text-decoration: none; /* Убираем подчеркивание ссылок */
+  color: #bebebe; /* Цвет текста по умолчанию */
+  font-family: 'Arial', sans-serif; /* Минималистичный шрифт */
+  transition: color 0.3s, background-color 0.3s; /* Плавный переход для цвета текста и фона */
+}
+
+.menu li a:hover {
+  color: #777; /* Цвет текста при наведении */
+}
+
+.menu li.active a {
+  background-color: #333; /* Цвет фона при активном состоянии */
+  color: #ffffff; /* Цвет текста при активном состоянии */
+  position: relative; /* Для позиционирования полоски */
+}
+
+.menu li.active a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 3px; /* Высота полоски снизу */
+  background-color: #fff; /* Цвет полоски снизу */
+}
